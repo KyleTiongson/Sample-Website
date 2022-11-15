@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Sample Web</title>
+    </head>
+    <!-- top navigation -->
+
+    <body class="grey lighten-2">
+        <div class="navbar-fixed">
+            <nav class="red">
+                <div class="nav-wrapper">
+                    <div class="container">
+                        <a href="#" data-target="slide-out" class="sidenav-trigger">
+                            <i class="material-icons ">
+                                menu
+                            </i>
+                        </a>
+                        <a href="" class="brand-logo center white-text text-darken-2">
+                            CWD Demo
+                            <ul id="nav-mobile" class="right-on-med-and-down">
+                                <li>
+                                    <a href="">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Menu
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        More
+                                    </a>
+                                </li>
+                            </ul>
+                        </a>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li>
+                <a href="#">
+                    <i class="material-icons">
+                        account_box
+                    </i>
+                    Profile
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons">
+                        favorite
+                    </i>
+                    Favorites
+                </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a href="#">
+                    <i class="material-icons">
+                        settings_applications
+                    </i>
+                    Settings
+                </a>
+            </li>
+        </ul>
+        <!-- side navigation Structure-->
+        <ul id="slide-out" class="sidenav">
+
+            <li class="active">
+                <a href="index.html" class="grey-text">
+                    <i class="material-icons">
+                        home
+                    </i>
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="index.html" class="grey-text">
+                    <i class="material-icons">
+                        local_phone
+                    </i>
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="index.html" class="grey-text">
+                    <i class="material-icons">
+                        live_help
+                    </i>
+                    Contact us
+                </a>
+            </li>
+            <li>
+                <a href="#" class="dropdown-trigger grey-text" data-target="dropdown1">
+                    Click Me
+                    <i class="material-icons right">
+                        arrow_drop_down
+                    </i>
+                </a>
+            </li>
+        </ul>
+
+        <!-- side navigation Structure-->
+        <!-- <ul id="slide-out" class="sidenav">
+    <li>
+    <div class="user-view">
+      <div class="background">
+        <img src="images/windowBG.webp">
+      </div>
+      <a href="#user"><img class="circle" src="images/robin.png"></a>
+      <a href="#name"><span class="white-text name">Robin Pads</span></a>
+      <a href="#email"><span class="white-text email">robinPadilla@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">assignment_ind</i>Profile</a></li>
+    <li><a href="#!"><i class="material-icons">home</i>Home</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Contact us!</a></li>
+    <li><a class="waves-effect" href="#!">jdandturk@gmail.com</a></li>
+  </ul> -->
+
+
+        <div class="container">
+
+            <!-- Background -->
+            <h2 class="grey-text text-darken-1">
+                Colors
+            </h2>
+            <div class="card-panel teal lighten-2">
+                this is a card panel with a teal lighten 2 class
+            </div>
+            <div class="card-panel indigo lighten-2">
+                This is a card panel with a indigo lighten-2 class
+            </div>
+            <!-- Text Color -->
+            <h4 class="grey-text text-darken-1">
+                Text Color
+            </h4>
+            <div class="card-panel">
+                <!-- span changes text color in div element -->
+                <span class="blue-text text-darken-2">
+                    This is a card panel with dark blue text
+                </span>
+            </div>
+            <div class="card-panel purple lighten-2">
+                <!-- span changes text color in div element -->
+                <span class="grey-text text-lighten-2">
+                    This is a card panel with lighten grey text
+                </span>
+            </div>
+
+            <!-- Buttons -->
+            <h2 class="grey-text text-darken-1">
+                Buttons
+            </h2>
+            <!-- raise buttons -->
+            <h5 class="grey-text text-darken-1">
+                Raise Buttons
+            </h5>
+            <a class="btn blue waves-effect waves-light">
+                button
+            </a>
+            <a class="btn light-blue waves-effect waves-light">
+                <i class="material-icons left">
+                    cloud
+                </i>
+                button
+            </a>
+            <a class="btn light-green waves-effect waves-light">
+                <i class="material-icons left">
+                    cloud
+                </i>
+                button
+            </a>
+            <!-- Floating button -->
+            <h5 class="grey-text text-darken-1">
+                Floating
+            </h5>
+            <a class="btn-floating btn-large waves-effect waves-light red pulse">
+                <i class="material-icons left">
+                    add
+                </i>
+            </a>
+            <!-- Flat Button -->
+            <h5 class="grey-text text-darken-1">
+                Flat
+            </h5>
+            <a class="btn-flat waves-effect waves-teal">
+                Button
+            </a>
+            <!-- Submit button -->
+            <h5 class="grey-text text-darken-1">
+                Submit button
+            </h5>
+            <button class="btn waves-effect waves-light brown" type="submit" name="action">
+                Submit
+                <i class="material-icons right">
+                    send
+                </i>
+            </button>
+
+            <!-- Large -->
+            <h5 class="grey-text text-darken-1">Large Button</h5>
+            <a class="btn amber waves-effect waves-light btn-large">Button</a>
+
+            <!-- Small -->
+            <h5 class="grey-text text-darken-1">Small Button</h5>
+            <a class="btn amber waves-effect waves-light btn-small">Button</a>
+
+            <!-- Disabled button -->
+            <h5 class="grey-text text-darken-1">Disabled button</h5>
+            <a class="btn disabled">Button</a>
+
+            <!-- Floating action button -->
+            <div class="fixed-action-btn">
+                <a class="btn-floating btn-large red">
+                    <i class="large material-icons">arrow_back</i>
+                </a>
+                <ul>
+                    <li>
+                        <a class="btn-floating red">
+                            <i class="material-icons">add_shopping_cart</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-floating yellow darken-1">
+                            <i class="material-icons">add_a_photo</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-floating green">
+                            <i class="material-icons">add_alarm</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-floating blue">
+                            <i class="material-icons">add</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Media CSS -->
+            <!-- Responsive Image -->
+            <h4 class="grey-text text-darken-1">Responsive Image</h4>
+            <div class="row">
+                <div class="col s12 m3 l4">
+                    <img src="images/img-1.jpg" alt="" class="circle responsive-img materialboxed">
+                </div>
+                <div class="col s12 m3 l4">
+                    <img src="images/img-1.jpg" alt="" class="responsive-img">
+                </div>
+                <div class="col s12 m3 l4">
+                    <img src="images/img-1.jpg" alt="" class="circle responsive-img">
+                </div>
+                <div class="col s12 m3 hide-on-large-only">
+                    <img src="images/img-1.jpg" alt="" class="responsive-img">
+                </div>
+            </div>
+
+            <!-- Responsive Embeds -->
+            <h4 class="grey-text text-darken-1">Responsive Embeds</h4>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="video-container">
+                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/qvsNyOhYMkQ"
+                            title="ever heard what creamy keyboard sounds like???" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="video-container">
+                        <iframe width="455" height="809" src="https://www.youtube.com/embed/YBqZQWMcKVg"
+                            title="have you ever heard a clicky switch THOCC??" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                    </div>
+                </div>
+                <div class="col s12">
+                    <video class="responsive-video" controls>
+                        <source src="https://www.youtube.com/embed/YBqZQWMcKVg" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+        </div>
+        <!-- Material boxed -->
+
+        <h4 class="grey-text text-darken-1">Material boxed</h4>
+
+        <section class="section white">
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="images/robin.png" class="materialboxed responsive-img" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed expedita, quisquam sapiente velit
+                        itaque
+                        voluptatum suscipit aliquam nisi vero fugit non aspernatur, veritatis ad nihil dolores, illum
+                        est beatae
+                        labore.</p>
+                </div>
+                <div class="col s12 m3">
+                    <img src="images/ez-pepo.png" class="materialboxed responsive-img" alt="">
+                </div>
+                <div class="col s12 m3">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed expedita, quisquam sapiente velit
+                        itaque
+                        voluptatum suscipit aliquam nisi vero fugit non aspernatur, veritatis ad nihil dolores, illum
+                        est beatae
+                        labore.</p>
+                </div>
+            </div>
+
+            <!-- Fullscreen sliders -->
+            <div class="container">
+                <h4 class="grey-text text-darken-1">Fullscreen sliders</h4>
+
+                <div class="slider white">
+                    <ul class="slides">
+                        <li>
+                            <img src="images/stick1.png" alt="" class="responsive-img">
+                            <div class="caption center-align">
+                                <h3 class>Fried rice</h3>
+                                <h5>Pagkain masarap hmm</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/stick2.png" alt="" class="responsive-img ">
+                            <div class="caption right-align">
+                                <h3>pagkain ulit</h3>
+                                <h5>hmmm yummy</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/stick3.png" alt="" class="responsive-img ">
+                            <div class="caption left-align">
+                                <h3>last na pagkain</h3>
+                                <h5 class="light grey-text text-lighten-3">sarap</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/stick4.png" alt="" class="responsive-img ">
+                            <div class="caption left-align">
+                                <h3>last na pagkain</h3>
+                                <h5 class="light grey-text text-lighten-3">sarap</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+        </section>
+        <!-- Grids content -->
+        <div class="container">
+            <h4 class="grey-text text-darken-1">Grid</h4>
+
+            <h5 class="grey-text text-darken-1">Columns</h5>
+            <div class="row">
+                <!-- Grid columns -->
+                <div class=" card-panel col s1 grey">
+                    <h5 style="text-align: center;">col</h5>
+                </div>
+                <div class=" card-panel col s1 red">
+                    <h5 style="text-align: center;">col</h5>
+                </div>
+                <div class=" card-panel col s1 grey">
+                    <h5 style="text-align: center;">col</h5>
+                </div>
+                <div class=" card-panel col s1 red">
+                    <h5 style="text-align: center;">col</h5>
+                </div>
+                <div class=" card-panel col s1 grey">
+                    <h5 style="text-align: center;">col</h5>
+                </div>
+                <div class=" card-panel col s1 red">
+                    <h5 style="text-align: center;">col</h5>
+                </div>
+                <div class=" card-panel col s1 grey">
+                    <h5 style="text-align: center;">col</h5>
+                </div>
+                <div class=" card-panel col s1 red">
+                    <h5 style="text-align: center;">col</h5>
+                </div>
+                <div class=" card-panel col s1 grey">
+                    <h5 style="text-align: center;">col</h5>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Columns live inside Rows -->
+                <h5 class="grey-text text-darken-1">Columns live inside Rows</h5>
+                <div class="col s8 red" style="text-align: center;">This is 8 columns wide</div>
+            </div>
+            <div class="row">
+                <div class="col s4 grey">This is half column wide</div>
+                <div class="col s4 red">This is half column wide</div>
+            </div>
+            <div class="row">
+                <!-- Offset -->
+                <h5 class="grey-text text-darken-1">Offset</h5>
+                <div class="col s8 red" style="text-align: center;"><span class="flow-text">This is 8 columns
+                        wide</span></div>
+                <div class="col s4 offset-s4 grey"><span class="flow-text">4 column offset by 4</span></div>
+            </div>
+            <div class="row">
+                <!-- push and pull -->
+                <h5 class="grey-text text-darken-1">Push and Pull</h5>
+                <div class="col s7 push-s5 red"><span class="flow-text">this is 7 column wide on pushed to the right by
+                        5
+                        column</span></div>
+                <div class="col s5 pull-s7 grey"><span class="flow-text">5 column wide pulled to the left by 7
+                        column</span>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Sections and dividers -->
+                <h5 class="grey-text text-darken-1">Sections and dividers</h5>
+                <div class="divider black"></div>
+                <div class="section">
+                    <h5>Content 1</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus vitae enim quibusdam facere
+                        laboriosam
+                        earum vel neque fugit temporibus quod, quasi ut veniam repellendus cum dolorem cupiditate
+                        tempora qui
+                        dolore.</p>
+                </div>
+                <div class="divider black"></div>
+                <div class="section">
+                    <h5>Content 2</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus vitae enim quibusdam facere
+                        laboriosam
+                        earum vel neque fugit temporibus quod, quasi ut veniam repellendus cum dolorem cupiditate
+                        tempora qui
+                        dolore.</p>
+                </div>
+                <div class="divider black"></div>
+            </div>
+            <!-- Responsive Layouts -->
+            <div class="row">
+                <h4 class="grey-text text-darken-1">Responsive Layouts </h4>
+                <h5 class="grey-text text-darken-1">Mobile Responsive Layout </h5>
+                <div class="col s12 red" style="text-align: center;"><span class="flow-text">I am always full-width (col
+                        s12)</span></div>
+                <div class="col s12 m6 grey"><span class="flow-text">I am full-width on mobile (col s12 m6)</span></div>
+            </div>
+            <div class="row">
+                <h5 class="grey-text text-darken-1">Responsive Grid Layouts</h5>
+                <div class="col s12 red">
+                    <h5 style="text-align: center;">col s12 red</h5>
+                </div>
+                <div class="col s12 m4 l2 grey">
+                    <h5>s12 m4 grey</h5>
+                </div>
+                <div class="col s12 m4 l8 light-blue">
+                    <h5>s12 m4 light-blue</h5>
+                </div>
+                <div class="col s12 m4 l2 grey">
+                    <h5>s12 m4 grey</h5>
+                </div>
+            </div>
+            <!-- basic card -->
+            <div class="row">
+                <h4 class="grey-text text-darken-1">Cards</h4>
+                <h5 class="grey-text text-darken-1">Basic Card</h5>
+                <div class="col s12 m8">
+                    <div class="card grey darken-4">
+                        <div class="card-content white-text">
+                            <span class="card-title">Card Title</span>
+                            <div class="divider black"></div>
+                            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+                                expedita veritatis
+                                nam cumque perferendis laborum repellendus ut explicabo nostrum qui. Reprehenderit
+                                tenetur vel voluptas
+                                porro! Magni nobis numquam totam vero!</p>
+                        </div>
+                        <div class="card-action">
+                            <p><a href="">Open</a></p>
+                            <p><a href="">Close</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Image card -->
+            <div class="row">
+                <h5 class="grey-text text-darken-1">Card Image</h5>
+                <div class="col s12 m7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/img-2.jpg">
+                            <span class="card-title white-text">Card Title</span>
+                        </div>
+                        <div class="card-action ">
+                            <p><a href="">Open</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FABs in Cards -->
+            <div class="row">
+                <h5 class="grey-text text-darken-1">FABs in Cards</h5>
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/img-3.jpg">
+                            <span class="card-title">Card Title</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                                    class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum hic blanditiis culpa nulla,
+                            quos provident
+                            molestiae eum sed nam accusantium quod ab animi velit fugit maiores obcaecati necessitatibus
+                            architecto
+                            vero.
+                        </div>
+                        <div class="card-action">
+                            <p><a href="">Open</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Horizontal Card -->
+            <div class="row">
+                <h5 class="grey-text text-darken-1">Horizontal Card</h5>
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img class="materialboxed" src="images/img-4.jpg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis est odit modi, voluptates
+                                facilis
+                                corporis ipsam numquam quaerat nostrum dolorum distinctio ad placeat. Natus amet sed
+                                inventore! Ipsam,
+                                laudantium atque.</p>
+                        </div>
+                        <div class="card-action">
+                            <p>
+                                <a href="">Open</a>
+                                <a href="">Close</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Reveal -->
+            <h5 class="grey-text text-darken-1">Card Reveal</h5>
+            <div class="card z-depth-5">
+                <div class="card-image">
+                    <img class="activator" src="images/img-5.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">
+                        <i class="material-icons right">more-vert</i>Card Title</span>
+                    <p><a href="">Open</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Card Title <i class="material-icons right">close</i></span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam voluptates itaque similique,
+                        blanditiis nobis
+                        ipsum, officiis sed enim minima rem illum est amet quis optio. Perspiciatis culpa fugiat rem
+                        ipsa.</p>
+                </div>
+                <div class="card-action">
+                    <p>
+                        <a href="">Back</a>
+                        <a href="">Close</a>
+                    </p>
+                </div>
+            </div>
+            <!-- Card reveal with sticky action -->
+            <h5 class="grey-text text-darken-1">Card reveal with sticky action</h5>
+            <div class="card sticky-action">
+                <div class="card-image">
+                    <img class="activator" src="images/img-5.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Card Title</span>
+                    <p><a href="">Open</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Card Title <i class="material-icons right">close</i></span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam voluptates itaque similique,
+                        blanditiis nobis
+                        ipsum, officiis sed enim minima rem illum est amet quis optio. Perspiciatis culpa fugiat rem
+                        ipsa.</p>
+                </div>
+                <div class="card-action">
+                    <p>
+                        <a href="">Back</a>
+                        <a href="">Close</a>
+
+                    </p>
+                </div>
+            </div>
+            <!-- Tabs in Cards -->
+            <div class="row">
+                <h5 class="grey-text text-darken-1">Tabs in Cards</h5>
+                <div class="col s12 m7">
+                    <div class="card">
+                        <div class="card-content white">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eveniet molestias,
+                                nostrum autem,
+                                magnam velit voluptatum, odit nihil aliquam reiciendis deleniti. Voluptas placeat rem
+                                aut reiciendis
+                                itaque tempora temporibus ipsum.</p>
+                        </div>
+                        <div class="card-tabs">
+                            <ul class="tabs tabs-fixed-width grey">
+                                <li class="tab"><a href="#tab1" class="white-text">Tab 1</a></li>
+                                <li class="tab"><a href="#tab2" class="white-text">Tab 2</a></li>
+                                <li class="tab"><a href="#tab3" class="white-text">Tab 3</a></li>
+                            </ul>
+                            <div class="card-content grey lighten-1">
+                                <div id="tab1">This is tab 1</div>
+                                <div id="tab2">This is tab 2</div>
+                                <div id="tab3">This is tab 3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Date and time picker -->
+        <div class="container">
+            <h4 class="grey-text text-darken-1">Picker</h4>
+            <section class="section grey darken-2 ">
+                <form action="">
+                    <div class="input-field">
+                        <label for="date">Date</label>
+                        <input type="text" class="datepicker" placeholder="Choose a date">
+                    </div>
+                    <div class="input-field">
+                        <label for="time">Time</label>
+                        <input type="text" class="timepicker" placeholder="Choose a time">
+                    </div>
+                </form>
+            </section>
+
+            <!-- Contacts and tags chips -->
+            <h4 class="grey-text text-darken-1">Chips</h4>
+            <section class="section grey darken-4 ">
+                <div class="container">
+                    <h5 class="white-text">Contacts</h5>
+                    <p class="light-green-text">Active Users</p>
+                    <div class="chip grey darken-4 grey-text z-depth-5">
+                        <img src="images/robin.png" alt="Contact Person">
+                        Mr. Jean Pacocha
+                    </div>
+                    <div class="chip grey darken-4 grey-text z-depth-5">
+                        Jean Cruickshank
+                        <img src="images/ez-pepo.png" alt="Contact Person">
+                    </div>
+                    <div class="chip grey darken-4 grey-text z-depth-5">
+                        Mrs. Lila Stroman
+                        <img src="images/peepo.png" alt="Contact Person">
+                    </div>
+                    <h5 class="white-text">Tags</h5>
+                    <p class="white-text">Genre</p>
+                    <div class="chip">
+                        Action
+                        <i class="material-icons close">close</i>
+                    </div>
+                    <div class="chip">
+                        Adventure
+                        <i class="material-icons close">close</i>
+                    </div>
+                    <div class="chip">
+                        Drama
+                        <i class="material-icons close">close</i>
+                    </div>
+                    <div class="chip">
+                        Comedy
+                        <i class="material-icons close">close</i>
+                    </div>
+                    <div class="chip">
+                        Horror
+                        <i class="material-icons close">close</i>
+                    </div>
+                    <div class="chips"></div>
+                    <label for="initialTags">Initial Tags</label>
+                    <div class="chips chips-initial"></div>
+                    <label for="override">Tags that override placeholders</label>
+                    <div class="chips chips-placeholder"></div>
+                    <label for="autocomplete">Autocomplete</label>
+                    <div class="chips chips-autocomplete"></div>
+                    <!-- Checkboxes -->
+                    <h5 class="white-text">Checkboxes</h5>
+                    <form action="#">
+                        <p>
+                            <label>
+                                <input type="checkbox" />
+                                <span>Red</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" checked="checked" />
+                                <span>Yellow</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Filled in</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input id="indeterminate-checkbox" type="checkbox" />
+                                <span>Indeterminate Style</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" checked="checked" disabled="disabled" />
+                                <span>Disabled checkbox</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" disabled="disabled" />
+                                <span>Disabled</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in">
+                                <span>test</span>
+                            </label>
+                        </p>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+
+
+
+
+
+        <div style="height:1000px;"></div>
+        <!-- Page Footer -->
+        <footer class="page-footer black">
+            <div class="footer-copyright transparent">
+                <div class="container">
+                    Follow us for more information
+                    <a class="grey-text text-lighten-4 right">More Links</a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        //Floating action button
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems, {
+                direction: 'left',
+                hoverEnabled: false
+            });
+        });
+
+
+        $(document).ready(function () {
+            //side navigation
+            $('.sidenav').sidenav({
+                edge: 'right', //default left
+                inDuration: 500,
+                outDuration: 500,
+            });
+            //Navbar dropdown
+            $('.dropdown-trigger').dropdown();
+            //Materialboxed
+            $('.materialboxed').materialbox({
+                inDuration: 500,
+                outDuration: 500
+            });
+            //Fullscreen Slider
+            $('.slider').slider({
+                interval: 250
+            });
+            //Tabs
+            $('.tabs').tabs();
+
+            //Date picker
+            $('.datepicker').datepicker();
+        });
+        //Time Picker
+        $('.timepicker').timepicker();
+        //Chips
+        $('.chips').chips();
+
+        $('.chips-initial').chips({
+            data: [{
+                tag: 'Action',
+            }, {
+                tag: 'Adventure',
+            }, {
+                tag: 'Horror'
+            }]
+        });
+
+        $('.chips-placeholder').chips({
+            placeholder: 'Enter a tag',
+            secondaryPlaceholder: '+Tag',
+        });
+
+        $('.chips-autocomplete').chips({
+            autocompleteOptions: {
+                data: {
+                    'Action': null,
+                    'Adventure': null,
+                    'Horror': null
+                },
+                limit: Infinity,
+                minLength: 1
+            }
+        });
+    </script>
+
+</html>
